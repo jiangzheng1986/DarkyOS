@@ -1,0 +1,12 @@
+window
+	message queue
+	message loop
+	panel
+	label
+	button
+	start menu
+	task bar
+	system statu
+clip
+	文字
+	图像

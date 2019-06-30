@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2c6580ff-a14b-478a-bee2-32acc34a46a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arm">
+      <UniqueIdentifier>{f1b55c77-0650-464f-ab3e-4ace8f94d39b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\kernel">
+      <UniqueIdentifier>{214f8aa0-b5b0-4a07-a13c-da3928d316b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\asm\Boot.nas">
+      <Filter>src\arm</Filter>
+    </None>
+    <None Include="src\asm\Hardware.nas">
+      <Filter>src\arm</Filter>
+    </None>
+    <None Include="src\asm\KernelLoader.nas">
+      <Filter>src\arm</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\kernel\Kernel.c">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\Test.c">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\Graphics.c">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\System.c">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\Time.c">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\Keyboard.c">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\Timer.c">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\Mouse.c">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\PIC.c">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\GDT.c">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\IDT.c">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\Memory.c">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\FileSystem.c">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\Sound.c">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\Image.c">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\Floppy.c">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\kernel\Kernel.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel\Test.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel\Graphics.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel\System.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel\Time.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel\Keyboard.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel\Timer.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel\Mouse.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel\PIC.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel\GDT.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel\IDT.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel\Hardware.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel\Memory.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel\FileSystem.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel\Sound.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel\Image.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel\Floppy.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
